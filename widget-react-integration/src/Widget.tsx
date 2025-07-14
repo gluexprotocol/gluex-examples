@@ -24,8 +24,8 @@ export const Widget = () => {
   }, []);
 
   return (
-    <ClientSideRender fallback={<WidgetSkeleton config={config} />}>
-      <GlueXWidget config={config} />
-    </ClientSideRender>
+      <ClientSideRender fallback={<WidgetSkeleton config={config} />}>
+        <GlueXWidget config={config} />
+      </ClientSideRender>
   );
 };
