@@ -11,7 +11,7 @@ git clone https://github.com/gluexprotocol/gluex-examples.git
 
 2. Navigate to the example directory:
 ```bash
-cd gluex-examples/nextjs-widget-integration
+cd gluex-examples/widget-nextjs-integration
 ```
 
 3. Install dependencies:

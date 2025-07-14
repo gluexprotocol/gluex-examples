@@ -1,6 +1,6 @@
-# Gluex Widget React Integration Example
+# Gluex Widget Gatsby Integration Example
 
-This is an example repository demonstrating a working integration of the Gluex Widget in a React application. You can use this as a reference implementation or starter template. For detailed integration guides and documentation, please visit [Gluex Documentation](https://docs.gluex.xyz).
+This is an example repository demonstrating a working integration of the Gluex Widget in a Gatsby application. You can use this as a reference implementation or starter template. For detailed integration guides and documentation, please visit [Gluex Documentation](https://docs.gluex.xyz).
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ git clone https://github.com/gluexprotocol/gluex-examples.git
 
 2. Navigate to the example directory:
 ```bash
-cd gluex-examples/widget-react-integration
+cd gluex-examples/widget-gatsby-integration
 ```
 
 3. Install dependencies:
@@ -26,7 +26,7 @@ yarn install
    2. Navigate to the API section to get your:
       - Integrator ID
       - API Key
-   3. Update the widget configuration in `src/components/Widget.tsx`:
+   3. Update the widget configuration in `src/pages/widget.tsx`:
       ```typescript
       const config: WidgetConfigPartialProps["config"] = {
         integrator: "YOUR_INTEGRATOR_ID",
@@ -37,12 +37,12 @@ yarn install
 
 5. Run the development server:
 ```bash
-npm run dev
+npm run develop
 # or
-yarn dev
+yarn develop
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the widget in action.
+Open [http://localhost:8000](http://localhost:8000) with your browser to see the widget in action.
 
 Check out [GlueX's Widget Studio](https://studio.gluex.xyz/playground) to customize the widget.
 

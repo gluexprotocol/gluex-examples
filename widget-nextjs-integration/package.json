@@ -1,5 +1,5 @@
 {
-  "name": "widget-nextjs-integration",
+  "name": "@gluex/example-widget-nextjs-integration",
   "version": "0.1.0",
   "private": true,
   "scripts": {
