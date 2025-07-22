@@ -1,0 +1,19 @@
+{
+  "name": "@gluex/example-widget-nuxt-integration",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@gluex/sdk": "^1.0.6",
+    "@gluex/widget": "^1.0.12",
+    "nuxt": "^4.0.0",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  }
+}
